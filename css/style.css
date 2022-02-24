@@ -21,8 +21,6 @@
 
 
 
-
-
 /* */
 #jumbo {
     background-image: url(../img/jumbo-bg.png);
@@ -31,4 +29,15 @@
     background-position: center;
     padding-top: 40%;
     padding-bottom: 10%;
+}
+
+#game {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.la-rounded {
+    border-radius: 20px;
 }
