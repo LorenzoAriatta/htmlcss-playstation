@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.debug {
+    border: 1px dashed darkred;
+}
+.w-100 {
+    width: 100%;
+}
+
+/* BUTTONS */
+.btn-orange {
+    background-color: #cd3d0f;
+    border-radius: 25px;
+    color: white;
+}
+
+
+
+
+
+/* */
+#jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40%;
+    padding-bottom: 10%;
+}
