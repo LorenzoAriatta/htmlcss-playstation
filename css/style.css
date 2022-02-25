@@ -19,6 +19,10 @@
     color: white;
 }
 
+.btn-gray {
+    background-color: #d9dadc;
+}
+
 
 
 /* */
@@ -40,4 +44,10 @@
 
 .la-rounded {
     border-radius: 20px;
+}
+.la-gray {
+    background-color: #bebcbb;
+}
+.la-blue {
+    background-color: #161c3b;
 }
