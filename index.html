@@ -24,8 +24,8 @@
 
             <div class="row">
 
-                <div class="col-2 offset-10 py-1">
-                    <img class="" src="img/sony_logo.svg" alt="sony_logo">
+                <div class="col-2 offset-10 col-sm-2 offset-sm-10 col-md-2 offset-md-10 col-lg-1 offset-lg-11 py-1">
+                    <img class="w-100" src="img/sony_logo.svg" alt="sony_logo">
                 </div>
 
             </div>
@@ -33,28 +33,36 @@
 
         </div>
         <!-- nav bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fw-bold">
+            <div class="container">
                 <img src="img/play_logo.svg" alt="play_logo">
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="true">
+                                Giochi
+                            </a>
+                            <ul class="dropdown-menu d-none" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">PlayStation 5</a></li>
+                                <li><a class="dropdown-item" href="#">PlayStation 4</a></li>
+                                <li><a class="dropdown-item" href="#">PlayStation 3</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
+
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -65,27 +73,27 @@
 
 
     <!-- inizio jumbo -->
-    <section>
+    <section id="jumbo">
 
 
-        <div id="jumbo" class="container-fluid text-white">
+        <div id="" class="container text-white">
 
-            <div class="col">
+            <div class="row">
 
-                <div class="row">
-                    <img class="col-8" src="img/returnal-hero-banner-logo.png" alt="returnal">
+                <div class="col-7 col-sm-7 col-md-7 col-lg-3 mb-5">
+                    <img class="w-100" src="img/returnal-hero-banner-logo.png" alt="returnal">
                 </div>
 
-                <div class="row">
+                <div class="col-12">
                     <h1>Rompi il cerchio</h1>
                 </div>
 
-                <div class="row">
+                <div class="col-12 col-lg-4 my-3">
                     <p>Rialziati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo questo
                         esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
                 </div>
 
-                <div class="row-1">
+                <div class="col-12">
                     <a class="btn btn-orange fw-bold" href="#" role="button">Acquista ora</a>
                 </div>
 
