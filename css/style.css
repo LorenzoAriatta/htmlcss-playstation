@@ -60,8 +60,9 @@ html {
     background-color: #00439c;
 }
 /* hovers */
-.navbar-nav li ul:hover {
+.nav-item:hover .dropdown-menu {
     display: block;
+    display: flex;
 }
 
 
