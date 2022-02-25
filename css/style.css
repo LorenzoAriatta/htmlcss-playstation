@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .debug {
     border: 1px dashed darkred;
 }
@@ -34,20 +38,27 @@
     padding-top: 40%;
     padding-bottom: 10%;
 }
-
 #game {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .la-rounded {
     border-radius: 20px;
 }
+.la-list-none {
+    list-style-type: none;
+}
+
+
+/* BG */
 .la-gray {
     background-color: #bebcbb;
 }
-.la-blue {
+.la-dark-blue {
     background-color: #161c3b;
+}
+.la-blue {
+    background-color: #00439c;
 }
