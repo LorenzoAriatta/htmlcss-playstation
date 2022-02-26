@@ -55,8 +55,43 @@ html {
 .la-blue {
     background-color: #00439c;
 }
+.la-opacity {
+    opacity: 50%;
+}
+
 /* hovers */
 .nav-item:hover .dropdown-menu {
     display: block;
     display: flex;
+}
+
+#lista-cards img:hover {
+    transition: all .2s ease-in-out;
+    transform: translate(0, -10px);
+    box-shadow: 5px 5px 20px 0px #1f1f1f;
+}
+#lista-cards div:hover {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #00439c;
+}
+#thumbs img:hover {
+    transition: 0.3s;
+    opacity: 100%;
+}
+#thumbs div:hover {
+    border-bottom: 2px solid #00439c;
+}
+#new-games img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#sales img:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px 0 #1f1f1f;
+}
+#social img:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px 0 #1f1f1f;
 }
