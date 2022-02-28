@@ -43,6 +43,9 @@ html {
 .la-rounded {
     border-radius: 20px;
 }
+.la-active {
+    border-bottom: 2px solid #00439c;
+}
 .dropdown {
     position: static;
 }
@@ -70,6 +73,10 @@ html {
 .nav-item:hover .dropdown-menu {
     display: block;
     display: flex;
+}
+
+#jumbo a:hover, #game a:hover {
+    color: white;
 }
 
 #lista-cards img:hover {
